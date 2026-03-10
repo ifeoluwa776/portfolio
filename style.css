@@ -12,7 +12,7 @@
 }
 
 body{
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", "Sans-serif"
 }
 h1, h2, h3, h4, h5, h6{
     font-family: 'Fregan Serif', sans-serif;;
@@ -154,27 +154,37 @@ footer p{
 .project-card{
     background-color: whitesmoke;
 }
-.testimonial-section{
-display: grid;
-grid-template-columns: 250px;
-gap: 20px;
-background-color: #00008b;
-padding: 20px;
-border-radius: 8px;
-}
-.profile-card{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.profile-picture{
-    background-color: #5e5ec2;
-    height: 80px;
-    width: 80px;
-    border-radius: 50%;
-    margin-bottom: 10px;
+.project-tech{
+
 }
 
+
+.testimonial-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.testimonial-card{
+    background-color: rgb(94, 100, 208);
+    padding: 25px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0,0.1);
+}
+.testimonial-user{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.testimonial-user img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.testimonial-user h4{
+    margin: 0;
+}
 input, textarea{
     padding:16px;
     font-size: 16px;
